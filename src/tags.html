@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Conversation Page
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-blue-100">
+  <header class="bg-blue-600 text-white flex items-center justify-between p-4 w-full">
+   <div class="flex items-center">
+    <img alt="Logo of a colorful car" class="h-12 w-12" height="50" src="https://storage.googleapis.com/a1aa/image/0cWArNX1pWYedjadTW-0GJpIkL5ItlcWwDRs5c7m6os.jpg" width="50"/>
+    <nav class="ml-4 hidden md:flex">
+     <a class="mx-2 hover:underline" href="#">Page d'accueil</a>
+     <a class="mx-2 hover:underline" href="#">Listes des trajets</a>
+     <a class="mx-2 text-orange-500 hover:underline" href="#">Conversation</a>
+     <a class="mx-2 hover:underline" href="#">Assistant vocale</a>
+     <a class="mx-2 hover:underline" href="#">Boutique</a>
+    </nav>
+    <div class="flex items-center md:hidden ml-4">
+      <i class="fas fa-bars text-white"></i> <!-- Hamburger icon for mobile -->
+    </div>
+   </div>
+   <div class="flex items-center">
+    <img alt="User profile picture" class="h-12 w-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/nJcrNnlL6OHKn4RnicVokwXMvwsD7_hSTb4xLBlb9Dc.jpg" width="50"/>
+   </div>
+  </header>
+  <main class="flex flex-col items-center p-4 w-full">
+   <div class="bg-white w-full flex items-center border-b pb-2 mb-4">
+    <img alt="User profile picture" class="h-12 w-12 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/nJcrNnlL6OHKn4RnicVokwXMvwsD7_hSTb4xLBlb9Dc.jpg" width="50"/>
+    <span class="ml-4 text-lg font-semibold">
+     Mohammed
+    </span>
+    
+    <div class="ml-auto flex space-x-4">
+        <i class="fas fa-phone-alt icon-style"></i>
+        <i class="fas fa-video text-black"></i>
+    </div>
+   </div>
+   <div class="flex flex-col space-y-2 mb-4 w-full px-4">
+    <div class="self-end bg-white text-black p-2 rounded-lg shadow-md">
+     Baggage possible ?
+    </div>
+    <div class="self-end bg-white text-black p-2 rounded-lg shadow-md">
+     Combien ?
+    </div>
+    <div class="self-end bg-white text-black p-2 rounded-lg shadow-md">
+     Le départ ?
+    </div>
+    <div class="self-end bg-white text-black p-2 rounded-lg shadow-md">
+     Le temps de départ ?
+    </div>
+   </div>
+   <div class="flex items-center border-t pt-2 w-full px-4">
+    <img alt="User profile picture" class="h-12 w-12 rounded-full mr-4" height="50" src="https://storage.googleapis.com/a1aa/image/nJcrNnlL6OHKn4RnicVokwXMvwsD7_hSTb4xLBlb9Dc.jpg" width="50"/>
+    <div class="relative flex-grow">
+     <input class="w-full p-2 border rounded-lg pl-10 pr-10" placeholder="Ecrivez une chose ..." type="text"/>
+     <i class="fas fa-microphone text-orange-500 absolute left-2 top-1/2 transform -translate-y-1/2"></i>
+     <i class="fas fa-smile text-blue-500 absolute right-2 top-1/2 transform -translate-y-1/2">
+      <i class="fas fa-plus text-xs absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2"></i>
+     </i>
+    </div>
+    <div class="flex items-center space-x-2 ml-2">
+     <i class="fas fa-thumbs-up text-blue-500"></i>
+     <i class="fas fa-map-marker-alt text-orange-500"></i>
+    </div>
+   </div>
+  </main>
+  <footer class="bg-blue-600 text-white flex items-center justify-between p-4 mt-4 w-full">
+   <div class="flex items-center space-x-4">
+    <i class="fas fa-phone-alt"></i>
+    <span>+216 75 839 839</span>
+   </div>
+   <div class="flex items-center space-x-4">
+    <i class="fas fa-envelope"></i>
+    <span>Covoit@gmail.com</span>
+   </div>
+   <div class="flex items-center space-x-4">
+    <i class="fas fa-map-marker-alt"></i>
+    <span>Tunis, Tunisie</span>
+   </div>
+   <img alt="Colorful car illustration" class="h-16 w-16" height="100" src="https://storage.googleapis.com/a1aa/image/7ceR9kb1IcXxFy2z8jWU7svP0udcb7t7_imZp6dopgM.jpg" width="100"/>
+  </footer>
+ </body>
+</html>
